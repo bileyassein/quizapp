@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Movies Quiz</h1>
+        <div id="question-box">
+            <p id="question">Question text</p>
+            <form id="options-form">
+                <!-- Options will be inserted here dynamically -->
+            </form>
+            <button id="submit-btn" onclick="submitAnswer()">Submit</button>
+            <button id="next-btn" onclick="nextQuestion()" class="hide">Next</button>
+        </div>
+        <div id="score-box" class="hide">
+            <h3>Your Final Score: <span id="score">0</span> / <span id="total">0</span></h3>
+            <button onclick="restartQuiz()">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
