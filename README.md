@@ -8,7 +8,8 @@ A lightweight, fast-loading quiz app built with vanilla HTML, CSS, and JavaScrip
 - Multiple choice format
 - Instant answer validation
 - Minimalist and mobile-friendly UI
-- Clean and simple structure — ideal for beginners or quick play
+- Clean and simple structure
+- Ideal for beginners or quick play
 
 ## 🛠️ Built With
 
